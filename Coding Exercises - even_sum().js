@@ -11,7 +11,7 @@
 
 let input = [2, 5, 8, 10, 25, 6, 4]
 let output = sum(input)
-function even_sum(arr, n) {
+function even_sum(i) {
     for (i=0; i < input.length; i++) {
         if (i%2 == 0) {
         //even
