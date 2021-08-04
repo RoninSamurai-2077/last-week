@@ -8,15 +8,17 @@
 
 // Input: [2, 4, 6, 3]
 // Output: 12
+
 let input = [2, 5, 8, 10, 25, 6, 4]
 let output = sum(input)
-function even_sum(i) {
+function even_sum(arr, n) {
     for (i=0; i < input.length; i++) {
         if (i%2 == 0) {
         //even
+        even += arr[i];
         }else {
             // nothing
-        }
+        };
     };
-    return sum(input)
+    return Output
 };
